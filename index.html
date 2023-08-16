@@ -9,8 +9,11 @@
 <input type="file" id="fileInput">
 <div id="fileInfo"></div>
 <img id="preview">
- 
-<script src="script.js"></script>
+
+<progress id="uploadProgress" max="100" value="0" style="display: none;"></progress>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script type="module" src="script.js"></script>
  
 </body>
 </html>
